@@ -1,0 +1,7 @@
+{% extends 'base.html' %} 
+
+{% block content %} 
+{% for data in ndata %}
+    <h2>{{ data['post_title'] }} {{ data['test_student'] }}</h2>
+{% endfor %} 
+{% endblock %}
